@@ -1,0 +1,15 @@
+{
+  // Turns auto fix on save on or off.
+  "eslint.autoFixOnSave": false,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue",
+    "html",
+    { "language": "html", "autoFix": false },
+    { "language": "vue", "autoFix": false }
+  ],
+  "eslint.options": {
+    "plugins": ["html"]
+  }
+}

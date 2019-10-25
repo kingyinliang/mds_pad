@@ -1,0 +1,45 @@
+{
+  "name": "mds_pda",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "lint": "eslint --ext .js ./src --fix"
+  },
+  "dependencies": {
+    "@ant-design/react-native": "^3.1.5",
+    "axios": "^0.18.0",
+    "querystring": "^0.2.0",
+    "react": "16.8.3",
+    "react-native": "0.59.3",
+    "react-native-elements": "^1.1.0",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-native-shadow": "^1.2.2",
+    "react-native-storage": "^1.0.0",
+    "react-native-svg": "^9.4.0",
+    "react-native-vector-icons": "^6.4.2",
+    "react-navigation": "^3.6.1",
+    "react-redux": "^6.0.1",
+    "react-thunk": "^1.0.0",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.3",
+    "@babel/runtime": "7.4.3",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "24.7.1",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-html": "^5.0.5",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.0",
+    "jest": "24.7.1",
+    "metro-react-native-babel-preset": "0.53.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
